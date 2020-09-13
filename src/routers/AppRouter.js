@@ -6,11 +6,11 @@ import {
   Redirect
 } from "react-router-dom"
 
-import { HomeScreen } from '../landing/home/HomeScreen'
-import { ContactScreen } from '../landing/contact/ContactScreen'
-import { LoginScreen } from '../landing/login/LoginScreen'
-import { DashboardRoutes } from '../routers/DashboardRoutes'
-import { RegisterScreen } from '../landing/register/RegisterScreen'
+import { HomeScreen } from '../components/landing/home/HomeScreen'
+import { ContactScreen } from '../components/landing/contact/ContactScreen'
+import { LoginScreen } from '../components/landing/login/LoginScreen'
+import { DashboardRoutes } from './DashboardRoutes'
+import { RegisterScreen } from '../components/landing/register/RegisterScreen'
 
 export const AppRouter = () => {
   return (

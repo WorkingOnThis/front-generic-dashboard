@@ -1,9 +1,9 @@
 import React from 'react'
 import { Route, Switch, Redirect } from 'react-router-dom'
 
-import { Navbar } from '../dashboard/layout/Navbar'
-import { HomeDashboardScreen } from '../dashboard/home/HomeDashboardScreen'
-import { SettingsScreen } from '../dashboard/settings/SettingsScreen'
+import { Navbar } from '../components/dashboard/layout/Navbar'
+import { HomeDashboardScreen } from '../components/dashboard/home/HomeDashboardScreen'
+import { SettingsScreen } from '../components/dashboard/settings/SettingsScreen'
 
 export const DashboardRoutes = () => {
   return (
